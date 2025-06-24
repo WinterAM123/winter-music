@@ -18,16 +18,16 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "25769520"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("b7e5dd4f8bb0292b35f758b2c197485d")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7793636683:AAGES5-Dja6yXFSEKxkXqUsNESiv84YYMnQ")
 
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://winteramop:winteramop@cluster0.srcdykr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -69,12 +69,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002559834774")
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "7826237565").split())
 )  # Input type must be interger
 
 
@@ -186,7 +186,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQGJNjAAJrXAH8C1J1IbQPr5-YPTzMnAbGOi90UmWs0e1zKF5NO4DI_EDVs93EXs3XIYD7xhdGtc9ZcIKaq9qljV5Yxmo2WE5DotHy5Y4nmsdwz9kGxe8Fos0-GkmAx8ioKKQyf4op_gDh9vnXmw1f89lGKLXPeg7l_nfRMuUnoZ63Dev7huN9kLXvuwEOQFfIjuqAFPcd1uuB8Hfpy-sWkxV3rT3XBvK7zgocwHfbuYMcV3RffyCHYnFKAq4uqxW0g-1yaTT6gmS7mosJCzT2hsdfbQnpV-Ijs-LiEVHcsDjIbb6bIsdUX3FSaERxUwKsxazdeTM0x8jkCuzhVwnpmI4cJFOQAAAAHjkuBfAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -219,67 +219,67 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/8de17217b41f7363d9d5e-cb74f1d77c89421790.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://graph.org/file/ab003e8fa97a0e7c42ae3-35ec4b99c895cbde60.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://graph.org/file/68a2c27c2150a6e85ec9f-3dc4d5d296e86ac3fa.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/de1db74efac1770b1e8e9.jpg",
+    "https://graph.org/file/8de17217b41f7363d9d5e-cb74f1d77c89421790.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://graph.org/file/ab003e8fa97a0e7c42ae3-35ec4b99c895cbde60.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/file/8234d704952738ebcda7f.jpg",
+    "https://graph.org/file/68a2c27c2150a6e85ec9f-3dc4d5d296e86ac3fa.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/8d02ff3bde400e465219a.jpg",
+    "https://graph.org/file/ab003e8fa97a0e7c42ae3-35ec4b99c895cbde60.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg",
+    "https://graph.org/file/ab003e8fa97a0e7c42ae3-35ec4b99c895cbde60.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://telegra.ph/file/7645d1e04021323c21db9.jpg",
+    "https://graph.org/file/8de17217b41f7363d9d5e-cb74f1d77c89421790.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg",
+    "https://graph.org/file/ab003e8fa97a0e7c42ae3-35ec4b99c895cbde60.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://telegra.ph/file/b7758d4e1bc32aa9fb6ec.jpg",
+    "https://graph.org/file/68a2c27c2150a6e85ec9f-3dc4d5d296e86ac3fa.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://telegra.ph/file/60ed85638e00df10985db.jpg",
+    "https://graph.org/file/68a2c27c2150a6e85ec9f-3dc4d5d296e86ac3fa.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://graph.org/file/68a2c27c2150a6e85ec9f-3dc4d5d296e86ac3fa.jpg",
 )
 
 
